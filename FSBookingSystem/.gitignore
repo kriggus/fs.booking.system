@@ -1,0 +1,8 @@
+# Ignore list: Just my eclipse mombo-jumbo-files for now. 
+# Only source (and this file) in repo (for now).
+
+.buildpath
+.project
+.settings
+.metadata
+

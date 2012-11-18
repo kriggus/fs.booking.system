@@ -1,0 +1,19 @@
+<?php
+
+namespace FSBookingSys\Pages;
+
+use FSBookingSys\Forms\FormAddEvent;
+use FSBookingSys\Utils\Utils;
+
+set_include_path('.'
+. PATH_SEPARATOR . dirname(dirname(__FILE__))
+. PATH_SEPARATOR . get_include_path()
+);
+require_once 'Utils/Utils.php';
+
+$utils = Utils::getInstance();
+$utils->loadAll();
+
+//TODO much
+
+?>
